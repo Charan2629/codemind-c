@@ -1,15 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int n,x,y;
+    int n,a,b;
     scanf("%d",&n);
-    
     while(n>0)
     {
-        scanf("%d %d",&x,&y);
-        
+        scanf("%d %d",&a,&b);
         printf("%d
-",(x+y));
+",a+b);
         n--;
     }
     return 0;
