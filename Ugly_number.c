@@ -7,8 +7,7 @@ int n,x=0;
 
   scanf("%d",&n);
 
-      if (n <= 0) {  
-        }
+ 
        while (n != 1) 
        {  
             if (n % 5 == 0) 
